@@ -23,7 +23,7 @@ services:
     labels:
       kompose.service.type: LoadBalancer
   busybox-dimko:
-    image: busybox:1
+    image: busybox:stable
     volumes:
       - /data
     command: /bin/echo
