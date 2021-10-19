@@ -17,5 +17,5 @@ services:
       kompose.service.type: LoadBalancer
   
   busybox-dimko:
-    image: ubuntu:20.04
+    image: ubuntu:18.04
     command: tail -F anything
