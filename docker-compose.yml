@@ -15,6 +15,7 @@ services:
       - GET_HOSTS_FROM=dns
     labels:
       kompose.service.type: LoadBalancer
+  
   busybox-dimko:
-    image: ubuntu
+    image: ubuntu:18.04
     command: tail -F anything
