@@ -18,4 +18,6 @@ services:
   
   busybox-dimko:
     image: ubuntu:20.04
+    labels:
+      kompose.image-pull-policy: Always
     command: tail -F anything
