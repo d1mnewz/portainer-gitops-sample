@@ -23,7 +23,5 @@ services:
     labels:
       kompose.service.type: LoadBalancer
   busybox-dimko:
-    image: busybox:latest
-    volumes:
-      - /data
-    command: /bin/echo
+    image: ubuntu
+    command: tail -F anything
