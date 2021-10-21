@@ -9,6 +9,6 @@ spec:
       command:
         - sleep
         - "3600"
-      imagePullPolicy: IfNotPresent
+      imagePullPolicy: Always
       name: busybox
   restartPolicy: Always
