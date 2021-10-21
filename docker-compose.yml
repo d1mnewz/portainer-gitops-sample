@@ -17,7 +17,6 @@ services:
       kompose.service.type: LoadBalancer
   
   busybox-dimko:
-    pull_policy: always
     image: ubuntu:18.04
     labels:
       kompose.image-pull-policy: Always
