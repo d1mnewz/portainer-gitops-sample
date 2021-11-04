@@ -2,7 +2,6 @@
 kind: Pod
 metadata:
   name: busybox
-  namespace: default
   labels:
     kompose.image-pull-policy: Always
 spec:
