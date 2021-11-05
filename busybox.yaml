@@ -6,7 +6,7 @@ metadata:
     kompose.image-pull-policy: Always
 spec:
   containers:
-    - image: busybox:stable
+    - image: busybox:latest
       command:
         - sleep
         - "3600"
